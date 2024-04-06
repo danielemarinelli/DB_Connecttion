@@ -1,0 +1,9 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+
+<suite name="jdbc connection" verbose="1">
+    <test name="db">
+        <classes>
+            <class name="tests.regressions"/>
+        </classes>
+    </test>
+</suite>
